@@ -1,0 +1,22 @@
+version: '3.7'
+services:
+  app:
+    build: ./app
+    image: proto-app_web:latest
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+    networks:
+      - backbone
+  api:
+    build: ./api
+    image: proto-api_web:latest
+    ports:
+      - "8082:8082"
+      - "8182:8182"
+    networks:
+      - backbone
+networks:
+  backbone:
+    driver: "bridge"

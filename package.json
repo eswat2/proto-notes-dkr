@@ -1,0 +1,15 @@
+{
+  "name": "proto-note-dkr",
+  "version": "1.0.0",
+  "description": "this project is setup to be run with Docker...",
+  "scripts": {
+    "build": "docker-compose build",
+    "start": "docker-compose up",
+    "stop": "docker-compose down"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eswat2/proto-notes-dkr.git"
+  },
+  "author": "Richard Hess"
+}
