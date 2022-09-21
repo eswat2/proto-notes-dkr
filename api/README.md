@@ -1,7 +1,5 @@
 # fire-notes
 
-[![Heroku](https://heroku-badge.herokuapp.com/?app=fire-notes&style=flat&svg=1)](https://fire-notes.herokuapp.com)
-
 a simple [**WebSockets**](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) and **REST** api notes server to support the Github Note Taker app from the egghead.io course...
 
 ```
@@ -27,18 +25,15 @@ sh demon
 - POST /notes
 ```
 
-### Deployed:
+### Endpoints
 
-the server has been deployed and is running here:  [**fire-notes**](https://fire-notes.herokuapp.com/)
+- [localhost:8082][proto-wss] - _websocket server_
+- [localhost:8182][proto-api] - _api server (REST)_
 
-```json
+### Description
+
+```
 {
-  "wut": "a simple websocket & REST api notes server",
-  "why": "wanted to build something like firebase",
-  "who": "Richard Hess (aka. eswat2)",
-  "app": "https://egghead-notes.herokuapp.com",
-  "git": "https://github.com/eswat2/fire-notes",
-  "wss": "wss://fire-notes.herokuapp.com",
   "api": [
     {
       "url": "/keys",
@@ -76,3 +71,6 @@ the server has been deployed and is running here:  [**fire-notes**](https://fire
 
 - [foreman](https://www.npmjs.com/package/foreman)
 - [nodemon](https://www.npmjs.com/package/nodemon)
+
+[proto-wss]: http://localhost:8082]
+[proto-api]: http://localhost:8182]

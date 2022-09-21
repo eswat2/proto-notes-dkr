@@ -11,12 +11,6 @@ const port = process.env.PORT || 8182
 const wssp = process.env.WSSP || 8082
 
 const mock = {
-  what: "a simple websocket & REST api notes server",
-  why: "wanted to build something like firebase",
-  who: "Richard Hess (aka. eswat2)",
-  app: "https://egghead-notes.herokuapp.com",
-  git: "https://github.com/eswat2/fire-notes",
-  wss: "wss://fire-notes.herokuapp.com",
   api: [
     { url: "/keys", verb: "GET", what: "list of keys" },
     { url: "/notes", verb: "POST", what: "creates/updates a note container" },
