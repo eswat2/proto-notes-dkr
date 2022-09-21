@@ -4,7 +4,7 @@
   "description": "a simple websocket based notes server...",
   "main": "app.mjs",
   "scripts": {
-    "start": "node app.mjs",
+    "start": "yarn; node app.mjs",
     "dev": "nodemon app.mjs",
     "test": "echo --skip",
     "spell": "cspell *.{mjs,json}",

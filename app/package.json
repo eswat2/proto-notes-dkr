@@ -10,7 +10,7 @@
     "build": "vite build",
     "dev": "vite",
     "serve": "vite preview",
-    "start": "vite preview --host 0.0.0.0",
+    "start": "yarn; vite build; vite preview --host 0.0.0.0",
     "test": "echo skipping...",
     "cc": "prettier --check './src/**/*.js'",
     "format": "prettier --write './src/**/*.js'",
