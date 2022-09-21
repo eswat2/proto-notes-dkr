@@ -1,6 +1,13 @@
 # proto-notes-dkr
 
-_This project is setup to be run with **Docker**..._
+This project was orgininally setup as independent pieces.  There were 2 parts:
+
+- a UI written in Vue, deployed to Vercel
+- an API server written in Node, deployed to Heroku
+
+The original idea came from an Egghead course i took.  That course built a UI in React with a backend in Firebase.  I wrote my own server to replace Firebase, built with Node and Websockets, just to explore how this all worked.  The server part was called **fire-notes** and that part is in the api folder of this repo.  I later rewrote the UI while exploring Vue and that was called **git-notes**.  That UI now lives in the app folder of this repo.  To simplify things, the Websocket and server connections aren't encrypted, not a big deal since they only run inside this container and it's not designed to be deployed anywhere.
+
+Since the Free tier of Heroku is going away in November of 2022, i decided to repackage this project as a Docker container.  When it's running locally, it exposes the following:
 
 - [localhost:3000][xoc-app] - _the Vue app_
 - [localhost:8082][xoc-wss] - _websocket server_
