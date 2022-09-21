@@ -8,6 +8,7 @@ import cors from "cors"
 
 const app = express()
 const port = process.env.PORT || 8182
+const wssp = process.env.WSSP || 8082
 
 const mock = {
   what: "a simple websocket & REST api notes server",
@@ -36,12 +37,12 @@ const mock = {
 const server = http.createServer(app)
 const serverOnPort = server.listen(port)
 
-console.log("-- Notes Server listening on port " + port)
+console.log("-- Notes Server listening on port", port)
 
 notes.connect()
 
-const wss = new WebSocketServer({ port: 8082 })
-console.log("-- websocket server created")
+const wss = new WebSocketServer({ port: wssp })
+console.log("-- Websocket Server created on port", wssp)
 console.log("-- http://localhost:" + port)
 
 const updateClients = (note) => {

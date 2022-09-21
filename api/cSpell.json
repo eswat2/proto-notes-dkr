@@ -5,7 +5,7 @@
   // language - current active spelling language
   "language": "en",
   // words - list of words to be always considered correct
-  "words": ["eswat", "herokuapp", "predeploy", "websockets"],
+  "words": ["eswat", "herokuapp", "predeploy", "websockets", "wssp"],
   // NOTE: we are ignoring gt-sports because of the automotive names...
   "ignorePaths": ["node_modules/**", "*.test.js"],
   // flagWords - list of words to be always considered incorrect
