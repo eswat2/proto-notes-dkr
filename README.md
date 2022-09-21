@@ -2,7 +2,7 @@
 
 _This project is setup to be run with **Docker**..._
 
-- [localhost:3000][xoc-app] - _this React app_
+- [localhost:3000][xoc-app] - _the Vue app_
 - [localhost:8082][xoc-wss] - _websocket server_
 - [localhost:8182][xoc-api] - _api server (REST)_
 
