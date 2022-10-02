@@ -24,7 +24,7 @@
     "vue": "3.2.40"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "3.1.0",
+    "@vitejs/plugin-vue": "3.1.2",
     "vite": "3.1.4"
   },
   "browserslist": [
