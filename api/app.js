@@ -1,7 +1,7 @@
 import { WebSocketServer } from "ws"
 import express from "express"
 import http from "http"
-import notes from "./notes.mjs"
+import notes from "./notes.js"
 
 import bodyParser from "body-parser"
 import cors from "cors"
