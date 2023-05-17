@@ -373,10 +373,10 @@ tiny-emitter@2.1.0:
   resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
   integrity sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==
 
-vite@4.3.6:
-  version "4.3.6"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-4.3.6.tgz#d129487dd9edf10ec79314e2e7891c60a2f86051"
-  integrity sha512-cqIyLSbA6gornMS659AXTVKF7cvSHMdKmJJwQ9DXq3lwsT1uZSdktuBRlpHQ8VnOWx0QHtjDwxPpGtyo9Fh/Qg==
+vite@4.3.7:
+  version "4.3.7"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-4.3.7.tgz#04f98ab0f4689490545b2f6fa0515e95072bb298"
+  integrity sha512-MTIFpbIm9v7Hh5b0wSBgkcWzSBz7SAa6K/cBTwS4kUiQJfQLFlZZRJRQgqunCVzhTPCk674tW+0Qaqh3Q00dBg==
   dependencies:
     esbuild "^0.17.5"
     postcss "^8.4.23"
