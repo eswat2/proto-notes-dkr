@@ -21,11 +21,11 @@
     "axios": "0.27.2",
     "lodash": "4.17.21",
     "tiny-emitter": "2.1.0",
-    "vue": "3.4.22"
+    "vue": "3.4.23"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "5.0.4",
-    "vite": "5.2.8"
+    "vite": "5.2.9"
   },
   "browserslist": [
     "> 1%",
