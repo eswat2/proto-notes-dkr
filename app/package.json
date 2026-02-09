@@ -21,7 +21,7 @@
     "axios": "0.27.2",
     "lodash": "4.17.23",
     "tiny-emitter": "2.1.0",
-    "vue": "3.5.27"
+    "vue": "3.5.28"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "6.0.4",
