@@ -16,7 +16,7 @@
   "author": "Richard Hess eswat2@gmail.com (https://about.me/richardhess)",
   "devDependencies": {},
   "dependencies": {
-    "body-parser": "2.3.0",
+    "body-parser": "2.4.0",
     "cors": "2.8.6",
     "express": "5.3.0",
     "lowdb": "7.0.1",
